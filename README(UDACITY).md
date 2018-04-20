@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Quake Report App
 ===================================
 
@@ -50,3 +51,7 @@ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
 WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
 License for the specific language governing permissions and limitations under
 the License.
+=======
+# QuakeReport
+This is a mobile application build to get the latest earthquakes through the world with the ratings i.e. The Ritchter Scale rating. This application is built with the help of udacity course "Android: Networking"
+>>>>>>> b9bf775a43a984ee5d887c2cbc9c00e6f407fb97
