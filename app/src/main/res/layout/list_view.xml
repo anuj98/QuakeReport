@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/magnitude_circle"
+        android:layout_gravity="center_vertical"
+        android:textAlignment="center"
+        android:id="@+id/magnitude"
+        android:textColor="@color/white"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:minHeight="?android:attr/listPreferredItemHeight">
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/offset"
+            android:textColor="@color/off_color" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/primary"
+            android:textColor="@color/primary_color" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"/>
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"/>
+
+</LinearLayout>
